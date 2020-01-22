@@ -4,9 +4,18 @@ import re
 import ast
 import threading
 ego_list=[];orgasm=[]
-https://github.com/anassk01/hentaiheroesbot/blob/master/Hentai%20Heros.py
+#https://github.com/anassk01/hentaiheroesbot/blob/master/Hentai%20Heros.py
+
+
+################  important !!!!  ##############################
+
 email='' #put your email login 
 password='' #the pssword
+
+################################################################
+
+
+
 url='https://www.hentaiheroes.com/ajax.php'
 cookies_login=requests.post('https://www.hentaiheroes.com/phoenix-ajax.php',data={'login':email,'password':password,'stay_online':'1','module':'Member','action':'form_log_in','call':'Member'})
 
