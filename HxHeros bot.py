@@ -4,7 +4,7 @@ import re
 import ast
 import threading
 ego_list=[];orgasm=[]
-
+https://github.com/anassk01/hentaiheroesbot/blob/master/Hentai%20Heros.py
 email='' #put your email login 
 password='' #the pssword
 url='https://www.hentaiheroes.com/ajax.php'
@@ -77,7 +77,7 @@ def catchmoney():
 def startfight():
     typeid='id_troll';typek='fight mission'
     home_url=(requests.get('https://www.hentaiheroes.com/home.html',cookies=cookies)).text
-    quest_text=re.findall('href="/(.+?)\".*Quête en cours',home_url);quest_text="https://www.hentaiheroes.com/{0}".format(quest_text[0])
+    quest_text=re.findall('href="/(.+?)\".*QuÃªte en cours',home_url);quest_text="https://www.hentaiheroes.com/{0}".format(quest_text[0])
     energy_fight=int((re.findall('<span energy>(.*?)</span>',home_url))[1])
 
 
