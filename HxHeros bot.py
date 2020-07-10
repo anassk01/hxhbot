@@ -4,7 +4,8 @@ import re
 import ast
 import threading
 ego_list=[];orgasm=[]
-#https://github.com/anassk01/hentaiheroesbot/blob/master/Hentai%20Heros.py
+
+### bot coding  by anassk for a client
 
 
 ################  important !!!!  ##############################
